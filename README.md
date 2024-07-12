@@ -14,6 +14,6 @@ The model successfully identified phishing website characteristics, supported by
 ## Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/yourusername/Phishing-Anomaly-Detection.git
-cd Phishing-Anomaly-Detection
+git clone https://github.com/mollanegash/cybersecurity-anomaly-detection.git
+cd cybersecurity-anomaly-detection
 pip install -r requirements.txt
