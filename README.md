@@ -1,19 +1,17 @@
-# Cybersecurity Anomaly Detection
+Cybersecurity Anomaly Detection
+Overview
+This project aims to detect phishing websites using machine learning techniques. By analyzing various website features, we identify anomalies that may indicate phishing attempts.
 
-## Overview
-This project aims to detect phishing websites using machine learning techniques. By analyzing website features, we identify anomalies indicative of phishing attempts.
+Methodology
+Data Source: Collected from PhishTank, MillerSmiles, and Google's search operators.
+Techniques Used: Utilizes the Isolation Forest model for effective anomaly detection.
+Tools: Developed using scikit-learn, Pandas, and Matplotlib.
+Results
+The model successfully identifies characteristics of phishing websites, supported by comprehensive visualizations and statistical analyses.
 
-## Methodology
-- **Data Source**: Collected from PhishTank, MillerSmiles, and Google’s operators.
-- **Techniques Used**: Isolation Forest model for anomaly detection.
-- **Tools**: scikit-learn, Pandas, Matplotlib.
+Installation
+To set up the project, clone the repository and install the necessary dependencies:
 
-## Results
-The model successfully identified phishing website characteristics, supported by visualizations and statistical analysis.
-
-## Installation
-Clone the repository and install dependencies:
-```bash
 git clone https://github.com/mollanegash/cybersecurity-anomaly-detection.git
 cd cybersecurity-anomaly-detection
 pip install -r requirements.txt
