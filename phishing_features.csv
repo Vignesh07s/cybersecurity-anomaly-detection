@@ -1,0 +1,31 @@
+Feature,Rule
+Using the IP Address,If an IP address is used instead of a domain name.
+Long URL to Hide the Suspicious Part,If URL length is >= 54 characters.
+Using URL Shortening Services,Using shortened URLs.
+URL’s having '@' Symbol,Presence of '@' in the URL.
+Redirecting using '//',Redirects indicated by '//' in the URL.
+Adding Prefix or Suffix Separated by (-) to the Domain,Use of '-' in domain names.
+Sub Domain and Multi Sub Domains,Count of subdomains; classified based on the number of dots.
+HTTPS,Check certificate details for HTTPS.
+Domain Registration Length,Phishing sites often have short registration lengths.
+Favicon,Favicon loaded from different domain indicates phishing.
+Using Non-Standard Port,Non-standard ports can indicate potential phishing.
+Existence of 'HTTPS' Token in the Domain,Presence of 'HTTPS' in domain part may indicate phishing.
+Request URL,External objects loaded from different domains.
+URL of Anchor,Different domain names in <a> tags indicate phishing.
+"Links in <Meta>, <Script> and <Link> tags","Links in <Meta>, <Script>, <Link> tags should match domain."
+Server Form Handler (SFH),Empty or mismatched SFHs indicate phishing.
+Submitting Information to Email,Redirecting user data to email is suspicious.
+Abnormal URL,Abnormal URLs from WHOIS data indicate potential phishing.
+Website Forwarding,High number of redirects can indicate phishing.
+Status Bar Customization,JavaScript altering status bar can indicate phishing.
+Disabling Right Click,"Disabling right-click can hide source code, indicating phishing."
+Using Pop-up Window,Pop-ups requesting personal info can be suspicious.
+IFrame Redirection,IFrames used to obscure true content can indicate phishing.
+Age of Domain,Short-lived domains suggest phishing.
+DNS Record,Empty DNS records can indicate phishing.
+Website Traffic,Low website traffic indicates potential phishing.
+PageRank,PageRank of 0 often indicates phishing.
+Google Index,Not indexed by Google may indicate phishing.
+Number of Links Pointing to Page,Few external links often indicate phishing.
+Statistical-Reports Based Feature,Use of statistical reports on phishing sites.
